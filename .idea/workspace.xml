@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="c553d108-b7ce-4106-a98d-b6571c66b4a0" name="Changes" comment="Move methods around">
+    <list default="true" id="c553d108-b7ce-4106-a98d-b6571c66b4a0" name="Changes" comment="Scan example with lines and tab">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/lecture1/Lecture1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/lecture1/Lecture1.java" afterDir="false" />
@@ -92,7 +92,14 @@
       <option name="project" value="LOCAL" />
       <updated>1667215397489</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Move methods around">
+      <created>1667218350406</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1667218350406</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -110,6 +117,7 @@
     <MESSAGE value="initial commit" />
     <MESSAGE value="Lecture1 , try packages and importing them. &#10;&#10;Nb: Only main file is run" />
     <MESSAGE value="Move methods around" />
-    <option name="LAST_COMMIT_MESSAGE" value="Move methods around" />
+    <MESSAGE value="Scan example with lines and tab" />
+    <option name="LAST_COMMIT_MESSAGE" value="Scan example with lines and tab" />
   </component>
 </project>

@@ -7,7 +7,6 @@ import lecture1.Lecture1;
  */
 public class Main {
     public static void main(String[] args) {
-
         Lecture1.scanEg();
     }
 

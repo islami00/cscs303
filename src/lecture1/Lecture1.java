@@ -7,9 +7,12 @@ import java.text.MessageFormat;
 import java.util.Scanner;
 
 public class Lecture1 {
+    static Scanner sc = new Scanner(System.in);
+
     public static void main(String[] args) {
         helloWorld();
         scanEg();
+        scanEg2();
     }
 
     public static void helloWorld() {
@@ -21,7 +24,6 @@ public class Lecture1 {
     }
 
     public static void scanEg() {
-        Scanner sc = new Scanner(System.in);
 
 
         System.out.println("Enter a number");
@@ -39,6 +41,21 @@ public class Lecture1 {
         System.out.println();
         System.out.format("Div of %d/%d is %d", l1, l2, div);
         System.out.println();
+
+    }
+
+    public static void scanEg2() {
+
+        System.out.println("Enter your name");
+        String name = sc.next();
+        System.out.println("Enter two classes you take. Csv style [a,b]");
+        String pattern = "(\\w+),(\\w+)";
+        String classes = sc.next(pattern);
+        String[] tins = classes.split(",");
+        System.out.format("My Name is:- %s \n I Take the\n following\n classes;\n", name);
+        for (String tin : tins) {
+            System.out.format("%s\t", tin);
+        }
 
     }
 }
