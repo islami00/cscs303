@@ -3,11 +3,21 @@
  */
 package lecture1;
 
+import java.text.MessageFormat;
 import java.util.Scanner;
 
 public class Lecture1 {
     public static void main(String[] args) {
-        Lecture1.scanEg();
+        helloWorld();
+        scanEg();
+    }
+
+    public static void helloWorld() {
+        int hello = 0;
+        Object[] params = new Object[]{"Hello", "!", hello};
+        String msg = MessageFormat.format("{0} world{1} {2}", params);
+
+        System.out.println(msg);
     }
 
     public static void scanEg() {
@@ -27,7 +37,7 @@ public class Lecture1 {
         int div = l1 / l2;
         System.out.format("Sum is %d", sum);
         System.out.println();
-        System.out.format("Div is %d", div);
+        System.out.format("Div of %d/%d is %d", l1, l2, div);
         System.out.println();
 
     }
