@@ -4,6 +4,9 @@ import java.util.Objects;
 import java.util.Scanner;
 import java.util.function.Function;
 
+/**
+ * @author Islam Garba Ibrahim 201103018
+ */
 public class assignment1 {
     public static void main(String[] args) {
 
@@ -25,7 +28,6 @@ public class assignment1 {
             assignment1::qn4,
             assignment1::qn5
     };
-
 
     public static void qn1() {
         System.out.println("Question 1");
