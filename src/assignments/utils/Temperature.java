@@ -13,23 +13,31 @@ public class Temperature {
                 """;
         System.out.println(prompt);
         int option = s.nextInt();
-        if (option == 1) {
-            System.out.println("Enter temperature in celsius");
-            double temp = s.nextDouble();
-            return toFarenheight(temp);
-        } else {
-            System.out.println("Enter temperature in Fahrenheit");
-            double temp = s.nextDouble();
-            return toCelcius(temp);
+        switch (option) {
+            case 1: {
+                System.out.println("Enter temperature in celsius");
+                double temp = s.nextDouble();
+                return toFahrenheit(temp);
+            }
+            case 2: {
+                System.out.println("Enter temperature in Fahrenheit");
+                double temp = s.nextDouble();
+                return toCelsius(temp);
+            }
+            default: {
+                System.out.println("Invalid input");
+                return 0;
+            }
         }
+
 
     }
 
-    double toFarenheight(double C) {
+    double toFahrenheit(double C) {
         return (C * 1.8) + 32;
     }
 
-    double toCelcius(double F) {
+    double toCelsius(double F) {
         return (F - 32) * ((double) 5 / 9);
     }
 }
