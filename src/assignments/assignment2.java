@@ -30,6 +30,7 @@ public class assignment2 {
         for (int i = 1; i <= 10; i++) {
             System.out.println("Enter a number");
             sum += s.nextDouble();
+
         }
         double avg = sum / 10;
         System.out.printf("The average is:%n %f%n", avg);
