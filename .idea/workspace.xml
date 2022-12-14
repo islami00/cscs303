@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="c553d108-b7ce-4106-a98d-b6571c66b4a0" name="Changes" comment="Update: Assignment 2. Fix temperature class">
-      <change afterPath="$PROJECT_DIR$/src/midterm/prep/midQuiz1.java" afterDir="false" />
+    <list default="true" id="c553d108-b7ce-4106-a98d-b6571c66b4a0" name="Changes" comment="Update: Test prep qn2">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/midterm/prep/midQuiz1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/midterm/prep/midQuiz1.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -40,7 +40,7 @@
     &quot;settings.editor.selected.configurable&quot;: &quot;preferences.lookFeel&quot;
   }
 }</component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Application.midQuiz1">
     <configuration name="Lecture1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="lecture1.Lecture1" />
       <module name="java-test-fresh" />
@@ -60,19 +60,6 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="misc.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="assignment1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="assignments.assignment1" />
-      <module name="java-test-fresh" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="assignments.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -106,13 +93,26 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="midQuiz1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="midterm.prep.midQuiz1" />
+      <module name="java-test-fresh" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="midterm.prep.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.midQuiz1" />
         <item itemvalue="Application.Quiz1" />
         <item itemvalue="Application.Lecture1" />
         <item itemvalue="Application.assignment2" />
         <item itemvalue="Application.loops" />
-        <item itemvalue="Application.assignment1" />
       </list>
     </recent_temporary>
   </component>
@@ -181,7 +181,21 @@
       <option name="project" value="LOCAL" />
       <updated>1668864313754</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="Update: Test prep qn1">
+      <created>1671058772994</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1671058772994</updated>
+    </task>
+    <task id="LOCAL-00010" summary="Update: Test prep qn2">
+      <created>1671059211826</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1671059211826</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -204,6 +218,8 @@
     <MESSAGE value="Update: Assignment 1." />
     <MESSAGE value="Update: Assignment 2. Class on loops" />
     <MESSAGE value="Update: Assignment 2. Fix temperature class" />
-    <option name="LAST_COMMIT_MESSAGE" value="Update: Assignment 2. Fix temperature class" />
+    <MESSAGE value="Update: Test prep qn1" />
+    <MESSAGE value="Update: Test prep qn2" />
+    <option name="LAST_COMMIT_MESSAGE" value="Update: Test prep qn2" />
   </component>
 </project>

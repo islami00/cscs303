@@ -1,12 +1,13 @@
 package midterm.prep;
 
+import java.util.Objects;
 import java.util.Scanner;
 
 public class midQuiz1 {
     static Scanner s = new Scanner(System.in);
 
     public static void main(String[] args) {
-        qn2();
+        qn3();
     }
 
     static void qn1(int a, int b) {
@@ -53,5 +54,32 @@ public class midQuiz1 {
         } else {
             return 5;
         }
+    }
+
+    static void qn3() {
+        float sum = 0;
+        float count = 0;
+        System.out.println("Enter an integer");
+        String q = "";
+
+        while (!Objects.equals(q, "q")) {
+            try {
+                q = s.next();
+                int nextScore = Integer.parseInt(q);
+                sum += nextScore;
+                count += 1;
+                System.out.println("Enter an integer");
+            } catch (Throwable sth) {
+//                do nothing
+            }
+
+        }
+
+        float avg = sum / count;
+        System.out.printf("""
+                Sum: %f
+                Count: %f
+                Average:  %f
+                """, sum, count, avg);
     }
 }
