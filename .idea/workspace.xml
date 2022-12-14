@@ -2,10 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c553d108-b7ce-4106-a98d-b6571c66b4a0" name="Changes" comment="Update: Assignment 2. Fix temperature class">
-      <change afterPath="$PROJECT_DIR$/src/misc/Quiz1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/midterm/prep/midQuiz1.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assignments/assignment2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/assignments/assignment2.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/lecture1/Lecture1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/lecture1/Lecture1.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -42,7 +40,7 @@
     &quot;settings.editor.selected.configurable&quot;: &quot;preferences.lookFeel&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.Quiz1">
+  <component name="RunManager">
     <configuration name="Lecture1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="lecture1.Lecture1" />
       <module name="java-test-fresh" />
