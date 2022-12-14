@@ -7,7 +7,7 @@ public class midQuiz1 {
     static Scanner s = new Scanner(System.in);
 
     public static void main(String[] args) {
-        qn3();
+        qn4();
     }
 
     static void qn1(int a, int b) {
@@ -81,5 +81,19 @@ public class midQuiz1 {
                 Count: %f
                 Average:  %f
                 """, sum, count, avg);
+    }
+
+    static void qn4() {
+        System.out.println("Enter an integer");
+        int num = s.nextInt();
+        if (isEven(num)) {
+            System.out.println("Even number");
+        } else {
+            System.out.println("Odd number");
+        }
+    }
+
+    static boolean isEven(int x) {
+        return (x % 2) == 0;
     }
 }
