@@ -7,7 +7,7 @@ public class midQuiz1 {
     static Scanner s = new Scanner(System.in);
 
     public static void main(String[] args) {
-        qn4();
+        qn6();
     }
 
     static void qn1(int a, int b) {
@@ -38,7 +38,7 @@ public class midQuiz1 {
     }
 
     /**
-     * Ref: https://www.nileuniversity.edu.ng/wp-content/uploads/2021/06/NUN_RG_001_Undergraduate-Students.pdf
+     * Ref: <a href="https://www.nileuniversity.edu.ng/wp-content/uploads/2021/06/NUN_RG_001_Undergraduate-Students.pdf">...</a>
      */
     static int gradeToInt(int grade) {
         if (grade < 40) {
@@ -93,7 +93,50 @@ public class midQuiz1 {
         }
     }
 
+    static void qn6() {
+        Pet p = new Pet();
+        p.setAge(1);
+        p.setAnimal("Goose");
+        p.setName("Duck duck go");
+        System.out.printf("""
+                Name: %s
+                Age: %d
+                Animal: %s
+                """, p.getName(), p.getAge(), p.getAnimal());
+
+    }
+
     static boolean isEven(int x) {
         return (x % 2) == 0;
+    }
+}
+
+class Pet {
+    int age;
+    String name;
+    String animal;
+
+    public void setAge(int age) {
+        this.age = age;
+    }
+
+    public void setAnimal(String animal) {
+        this.animal = animal;
+    }
+
+    public void setName(String name) {
+        this.name = name;
+    }
+
+    public int getAge() {
+        return age;
+    }
+
+    public String getAnimal() {
+        return animal;
+    }
+
+    public String getName() {
+        return name;
     }
 }
