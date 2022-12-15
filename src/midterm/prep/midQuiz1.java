@@ -112,9 +112,9 @@ public class midQuiz1 {
 }
 
 class Pet {
-    int age;
-    String name;
-    String animal;
+    private int age;
+    private String name;
+    private String animal;
 
     public void setAge(int age) {
         this.age = age;
