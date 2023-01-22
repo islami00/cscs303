@@ -4,12 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c553d108-b7ce-4106-a98d-b6571c66b4a0" name="Changes" comment="Update: Test prep qn2">
-      <change afterPath="$PROJECT_DIR$/src/learn/Learn1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/learn/Learn3Scanner.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/learn/LearnString.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+    <list default="true" id="c553d108-b7ce-4106-a98d-b6571c66b4a0" name="Changes" comment="Update: Exam prep">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/learn/Learn3Scanner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/learn/Learn3Scanner.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -204,7 +201,14 @@
       <option name="project" value="LOCAL" />
       <updated>1671059211826</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="Update: Exam prep">
+      <created>1674396924436</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1674396924436</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -229,6 +233,7 @@
     <MESSAGE value="Update: Assignment 2. Fix temperature class" />
     <MESSAGE value="Update: Test prep qn1" />
     <MESSAGE value="Update: Test prep qn2" />
-    <option name="LAST_COMMIT_MESSAGE" value="Update: Test prep qn2" />
+    <MESSAGE value="Update: Exam prep" />
+    <option name="LAST_COMMIT_MESSAGE" value="Update: Exam prep" />
   </component>
 </project>
